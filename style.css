@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+}
+
+body{
+    background-color: #FFEDE8;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.credit_card{
+    margin-top: 150px;
+    width: 499px;
+    height: 296px;
+    background: #000000;
+    backdrop-filter: blur(120px);
+    -webkit-backdrop-filter: blur(120px);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    
+    
+
+    
+    
+
+    .top_part{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 25px;
+        background: linear-gradient(rgba(255, 212, 212, 0.5) 0%, black 8%);
+        
+        
+        img:first-child{
+            border-top-left-radius: 20px;
+        }
+
+        img:last-child{
+            border-top-right-radius: 20px;
+        }
+        
+        
+        
+        
+        
+        
+        h2{
+            font-size: 25px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.89);
+            text-transform: uppercase;
+        }
+
+    
+    }
+
+    .middle_part{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 0 0 25px;
+        
+
+        h2{
+            display: flex;
+            gap: 25px;
+            color: transparent;
+            font-size: 25px;
+            font-weight: 400;
+            margin-bottom: 10px;
+            -webkit-text-stroke: 0.5px #FFFFFF;
+            text-shadow: 1px 1px #979696, 0 0 rgba(146, 143, 143, 0.7);
+            filter: brightness(130%);
+        }
+
+        p{
+            color: white;
+        }
+    }
+
+    .bottom_part{
+        display: flex;
+        padding: 0 0 50px 38px;
+        
+        .valid{
+            display: flex;
+            gap: 95px;
+            p{
+                display: flex;
+                align-items: center;
+                gap: 18px;
+                font-size: 8px;
+                font-weight: 400;
+                text-transform: uppercase;
+                color: rgba(255, 255, 255, 0.6);
+
+                span{
+                    font-size: 14px;
+                    font-weight: 400;
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+    }
+
+    .mastercard{
+        position: absolute;
+        right: 31px;
+        bottom: 11.5px;
+    }
+
+    .rect{
+        width: 67px;
+        height: 55px;
+        position: absolute;
+        top: 126px;
+        right: 55px;
+    }
+
+    .nfc{
+        position: absolute;
+        top: 115px;
+        right: 3px;
+        
+    }
+}
